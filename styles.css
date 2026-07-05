@@ -1,0 +1,34 @@
+/* Custom Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap');
+
+/* Base Styles & Typography */
+body {
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* Custom Gradients */
+.gradient-bg {
+    background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+}
+
+.accent-gradient {
+    background: linear-gradient(135deg, #f97316 0%, #ea580c 100%);
+}
+
+/* Custom Animation Transitions for Modern Cards */
+.hover-card-effect {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hover-card-effect:hover {
+    transform: translateY(-4px) scale(1.02);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.05), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+/* Responsive Fix for Email & Long Text */
+.text-overflow-protection {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
